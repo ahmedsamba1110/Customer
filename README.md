@@ -1,6 +1,6 @@
 
 ### Application structure
-After successful build, your application structure should look like this:
+After successful build, your application structure should look like this::
 
 After successful build, your application structure should look like this:
 .
