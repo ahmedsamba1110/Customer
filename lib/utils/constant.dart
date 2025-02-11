@@ -1,6 +1,6 @@
 import 'package:e_demand/app/generalImports.dart';
 
-const String appName = "eDemand";
+const String appName = "bareeq";
 
 // domainURL should look like:- https://your_domain.in
 const String domainURL = "https://edemand.wrteam.me"; 
@@ -12,8 +12,8 @@ const bool isDemoMode = false;
 
 //*******Add Your Language code and name here */
 //by default language of the app
-const String defaultLanguageCode = "en";
-const String defaultLanguageName = "English";
+const String defaultLanguageCode = "ar";
+const String defaultLanguageName = "عربى";
 
 //add your default country code here
 ///https://www.att.com/support_media/images/pdf/Country_Code_List.pdf

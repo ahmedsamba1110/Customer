@@ -1,7 +1,7 @@
 {
   "booking": "الحجوزات",
   "explore": "يستكشف",
-  "profile": "حساب تعريفي",
+  "profile": "حسابي ",
   "darkMode": "الوضع المظلم",
   "notification": "إشعارات",
   "language": "لغة",
@@ -22,7 +22,7 @@
   "onboarding_heading_four": "تلقي نتائج الجودة",
   "onboarding_body_four": "استمتع بنتائج عالية الجودة يتم تسليمها مباشرة إلى عتبة داركم أو متجركم. ",
   "welcomeTo": "مرحبا بكم في",
-  "appName": "eDemand",
+  "appName": "بريق",
   "login_or_signup": "تسجيل الدخول أو الاشتراك",
   "continueText": "يكمل",
   "terms_service": "شروط الخدمة",
@@ -522,5 +522,5 @@
   "providerNote": "ملاحظة المزود",
   "invalidTime": "يجب أن يكون وقت البدء المحدد قبل وقت الانتهاء",
   "selectStartDateTimeFirst": "Select Start Date & Time First",
-  "categories": "Categories"
+  "categories": "الاقسام"
 }
