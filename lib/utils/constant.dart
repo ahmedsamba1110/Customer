@@ -7,7 +7,10 @@ const String domainURL = "https://edemand.wrteam.me";
 
 
 //Add your baseURL
-const String baseUrl = "https://edemand.wrteam.me/api/v1/"; 
+//const String baseUrl = "https://edemand.wrteam.me/api/v1/";
+//https://admin.bareeq.sd/api/v1//
+const String baseUrl = "https://admin.bareeq.sd/api/v1/";
+
 const bool isDemoMode = false;
 
 //*******Add Your Language code and name here */
