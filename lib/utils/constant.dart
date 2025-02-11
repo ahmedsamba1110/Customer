@@ -6,7 +6,7 @@ const String appName = "bareeq";
 const String domainURL = "https://edemand.wrteam.me"; 
 
 
-//Add your baseURL
+//Add your baseURL hahahah
 //const String baseUrl = "https://edemand.wrteam.me/api/v1/";
 //https://admin.bareeq.sd/api/v1//
 const String baseUrl = "https://admin.bareeq.sd/api/v1/";
