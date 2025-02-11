@@ -6,6 +6,9 @@ abstract class AppAssets {
   static const String splashScreenBottomLogo =
       "${brandingAssetsPath}splash_screen_bottom_logo.svg";
   static const String splashLogo = "${brandingAssetsPath}splash_logo.svg";
+
+  static const String splashLogonew = "${brandingAssetsPath}newsplash.svg";
+
   static const String somethingWentWrong =
       "${brandingAssetsPath}somethingWentWrong.svg";
   static const String placeHolder = "${brandingAssetsPath}place_holder.svg";
