@@ -3,7 +3,7 @@ import 'package:e_demand/app/generalImports.dart';
 const String appName = "bareeq";
 
 // domainURL should look like:- https://your_domain.in
-const String domainURL = "https://edemand.wrteam.me"; 
+const String domainURL = "https://edemand.wrteam.me";
 
 
 //Add your baseURL hahahah

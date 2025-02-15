@@ -219,7 +219,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
                   child: const Center(
                     child: CustomSvgPicture(
-                        svgImage: AppAssets.splashLogo,
+                        svgImage: AppAssets.splashLogonew,
                         height: 240,
                         width: 220),
                   ),
@@ -230,7 +230,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     child: Align(
                       alignment: Alignment.bottomCenter,
                       child: CustomSvgPicture(
-                          svgImage: AppAssets.splashScreenBottomLogo,
+                          svgImage: AppAssets.splashLogonew,
                           width: 135,
                           height: 25),
                     ),
