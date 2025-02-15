@@ -8,6 +8,7 @@ abstract class AppAssets {
   static const String splashLogo = "${brandingAssetsPath}splash_logo.svg";
 
   static const String splashLogonew = "${brandingAssetsPath}newsplash.svg";
+  static const String splashLogonewdark = "${brandingAssetsPath}newsplashdark.svg";
 
   static const String somethingWentWrong =
       "${brandingAssetsPath}somethingWentWrong.svg";

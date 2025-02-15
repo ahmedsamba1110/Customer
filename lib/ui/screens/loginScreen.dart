@@ -772,7 +772,7 @@ class _LogInScreenState extends State<LogInScreen> {
       child: CustomSvgPicture(
         svgImage: Theme.of(context).colorScheme.brightness == Brightness.light
             ? AppAssets.splashLogonew
-            : AppAssets.splashLogonew,
+            : AppAssets.splashLogonewdark,
       ),
     );
   }
