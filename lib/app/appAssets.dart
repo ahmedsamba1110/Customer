@@ -6,6 +6,9 @@ abstract class AppAssets {
   static const String splashScreenBottomLogo =
       "${brandingAssetsPath}splash_screen_bottom_logo.svg";
   static const String splashLogo = "${brandingAssetsPath}splash_logo.svg";
+
+  static const String splashLogonew = "${brandingAssetsPath}newtest.svg";
+
   static const String somethingWentWrong =
       "${brandingAssetsPath}somethingWentWrong.svg";
   static const String placeHolder = "${brandingAssetsPath}place_holder.svg";
@@ -19,6 +22,8 @@ abstract class AppAssets {
       "${brandingAssetsPath}location_access.svg";
 
 //general assets
+  static const String splashnew = "${generalAssetsPath}splah.jpeg";
+
   static const String confirmDelete = "${generalAssetsPath}confirm_delete.svg";
   static const String activeMyReq = "${generalAssetsPath}active_my_req.svg";
   static const String inactiveMyReq = "${generalAssetsPath}inactive_my_req.svg";
