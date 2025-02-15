@@ -30,10 +30,11 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace "wrteam.edemand.customer.e_demand"
+    namespace "sd.bareeq.customer"
     compileSdk 35
     ndkVersion "26.1.10909125"
-
+    //26.1.10909125
+    //26.1.10909125
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -48,7 +49,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "wrteam.edemand.customer.e_demand"
+        applicationId "sd.bareeq.customer"
         minSdkVersion 24
         targetSdkVersion 34
         versionCode flutterVersionCode.toInteger()
