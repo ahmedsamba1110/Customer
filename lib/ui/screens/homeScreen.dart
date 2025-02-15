@@ -348,21 +348,46 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   }
 
   Widget _getCategoryTextContainer() => Padding(
-        padding: const EdgeInsetsDirectional.only(start: 15, end: 15, top: 10),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            CustomText(
-              'categories'.translate(context: context),
-              color: context.colorScheme.blackColor,
-              fontWeight: FontWeight.w700,
-              fontStyle: FontStyle.normal,
-              fontSize: 18,
-              textAlign: TextAlign.left,
-            ),
-          ],
+    padding: const EdgeInsetsDirectional.only(start: 15, end: 15, top: 10),
+    child: Container(
+      decoration: const BoxDecoration(
+        image: DecorationImage(
+          image: AssetImage('assets/images/gold.png'), // Replace with your image path
+          fit: BoxFit.fill, // Adjust the image fit as needed
         ),
-      );
+      ),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          CustomText(
+            'categories'.translate(context: context),
+            color: context.colorScheme.blackColor,
+            fontWeight: FontWeight.w700,
+            fontStyle: FontStyle.normal,
+            fontSize: 18,
+            textAlign: TextAlign.center,
+          ),
+        ],
+      ),
+    ),
+  );
+
+//  Widget _getCategoryTextContainer() => Padding(
+      //  padding: const EdgeInsetsDirectional.only(start: 15, end: 15, top: 10),
+       // child: Row(
+         // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+         // children: [
+           // CustomText(
+            //  'categories'.translate(context: context),
+             // color: context.colorScheme.blackColor,
+            //  fontWeight: FontWeight.w700,
+            //  fontStyle: FontStyle.normal,
+             // fontSize: 18,
+             // textAlign: TextAlign.left,
+           // ),
+         // ],
+       // ),
+     // );
 
   Widget _getCategoryListContainer(
           {required final List<CategoryModel> categoryList}) =>
@@ -683,17 +708,37 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         ),
       );
 
+ // Widget _getSingleSectionTitle(final Sections sectionData) => Padding(
+        //padding: const EdgeInsetsDirectional.only(start: 15, end: 15, top: 10),
+       // child: CustomText(
+          //sectionData.title!,
+        //  color: context.colorScheme.blackColor,
+         // fontWeight: FontWeight.w600,
+         // fontSize: 18,
+         // maxLines: 1,
+         // textAlign: TextAlign.left,
+      //  ),
+     // );
+
   Widget _getSingleSectionTitle(final Sections sectionData) => Padding(
-        padding: const EdgeInsetsDirectional.only(start: 15, end: 15, top: 10),
-        child: CustomText(
-          sectionData.title!,
-          color: context.colorScheme.blackColor,
-          fontWeight: FontWeight.w600,
-          fontSize: 18,
-          maxLines: 1,
-          textAlign: TextAlign.left,
+    padding: const EdgeInsetsDirectional.only(start: 15, end: 15, top: 10),
+    child: Container(
+      decoration: const BoxDecoration(
+        image: DecorationImage(
+          image: AssetImage('assets/images/gold.png'), // Replace with your image path
+          fit: BoxFit.fill, // Adjust the image fit as needed
         ),
-      );
+      ),
+      child: CustomText(
+        sectionData.title!,
+        color: context.colorScheme.blackColor,
+        fontWeight: FontWeight.w600,
+        fontSize: 18,
+        maxLines: 1,
+        textAlign: TextAlign.center,
+      ),
+    ),
+  );
 
   Widget _getSingleSectionData(final Sections sectionData) {
     return CustomSizedBox(

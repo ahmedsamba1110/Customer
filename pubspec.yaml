@@ -104,6 +104,7 @@ flutter:
     - assets/mapTheme/
     - assets/animation/
     - assets/countryCodes/
+    - assets/images/gold.png
 
   fonts:
     - family: Lexend
