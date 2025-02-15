@@ -65,6 +65,6 @@ class DefaultFirebaseOptions {
     storageBucket: 'edemand-79907.appspot.com',
     androidClientId: '',
     iosClientId: '',
-    iosBundleId: 'wrteam.edemand.customer.eDemand',
+    iosBundleId: 'sd.bareeq.customer',
   );
 }
